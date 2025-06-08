@@ -16,7 +16,7 @@ function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const result = await axios.post("/user/register", formData);
+      const result = await axios.post("https://todo-list-website-backend-28iq.onrender.com/user/register", formData);
       tokenDispatch({ type: "SET_TOKEN", payload: result.data.token });
       userDispatch({ type: "SET_USER", payload: result.data.user });
       localStorage.setItem("authToken", JSON.stringify(result.data.token));
