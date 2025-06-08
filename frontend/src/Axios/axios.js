@@ -1,5 +1,5 @@
 import axios from "axios"
 const instance = axios.create({
-    baseURL:"http://localhost:8000/api"
+    baseURL:"https://todo-list-website-backend-28iq.onrender.com"
 })
 export default instance
