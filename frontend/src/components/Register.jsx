@@ -82,16 +82,7 @@ function Register() {
           <div className="flex-grow h-px bg-gray-300"></div>
         </div>
 
-        <button
-          className="w-full bg-red-600 text-white py-2 rounded-lg hover:bg-red-700 transition duration-300 flex items-center justify-center gap-2"
-        >
-          <img
-            src="https://t4.ftcdn.net/jpg/03/91/79/25/360_F_391792593_BYfEk8FhvfNvXC5ERCw166qRFb8mYWya.jpg"
-            alt="Google Icon"
-            className="w-5 h-5"
-          />
-          Continue with Google
-        </button>
+       
       </div>
     </div>
   );
