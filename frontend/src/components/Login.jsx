@@ -20,7 +20,7 @@ function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const result = await axios.post("/user/register", formData);
+      const result = await axios.post("/user/login", formData);
 
       tokenDispatch({ type: "SET_TOKEN", payload: result.data.token });
       userDispatch({ type: "SET_USER", payload: result.data.user });
