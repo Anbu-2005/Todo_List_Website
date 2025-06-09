@@ -5,6 +5,8 @@ import { Outlet, NavLink, useNavigate } from 'react-router-dom';
 import TokenContext from '../../context/TokenContext.js';
 import "./header.css"
 function Header() {
+    const navigate = useNavigate();
+
     const token = localStorage.getItem("authToken");
     const { user } = useContext(TokenContext);
     console.log("user", user);
