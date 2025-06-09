@@ -1,6 +1,7 @@
 import React from 'react';
 import { useContext } from 'react';
-import { Outlet, NavLink } from 'react-router-dom';
+import { Outlet, NavLink,useNavigate } from 'react-router-dom';
+
 import TokenContext from '../../context/TokenContext.js';
 import "./header.css"
 function Header() {
@@ -9,7 +10,8 @@ function Header() {
     console.log("user", user);
     const logout = () => {
         localStorage.removeItem("authToken");
-        window.location.href = "/login";
+        navigate("/login"); // soft redirect using React Router
+    window.location.reload();
     }
 
     return (
