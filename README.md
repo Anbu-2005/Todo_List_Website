@@ -1,42 +1,32 @@
-# Todo List Project
 
-## Project Description
-This is a simple Todo List application that allows users to create, update, and delete tasks. The project is designed to help users manage their daily tasks efficiently with an intuitive user interface.
+ Hackathon Participation
 
-The application includes features such as:
-- Adding new tasks with descriptions and due dates.
-- Marking tasks as completed.
-- Editing existing tasks.
-- Deleting tasks.
+ This project is a part of a hackathon run by
+ 
+ [https://www.katomaran.com](https://www.katomaran.com)
+ Todo List Web Application
 
+Welcome to the **Todo List** Web App — a simple, responsive, and feature-rich task management platform built with the MERN stack (MongoDB, Express, React, Node.js). This application allows users to register, log in, add/edit/delete tasks, and mark them as completed.
 
-This project is built with a modern technology stack (e.g., React for frontend, Node.js/Express for backend, and MongoDB or SQLite for database), making it easy to maintain and extend.
+🌐 **Live Demo**: (https://todo-list-website-201.onrender.com)
 
-### Installation
-1. Clone the repository:
-   git clone https://github.com/your-username/todo-list.git
-   Install dependencies:
-cd frontend
-cd todolist
-npm install
-Configure environment variables 
-REACT_APP_GOOGLE_CLIENT_ID="Yout Google Client ID"
+## 🚀 Features
+
+- User Registration & Login (JWT Authentication)
+- Add, update, delete, and complete tasks
+- Google OAuth login support
+- Email notifications
+- MongoDB database with Mongoose
+
+## 🏗️ Architecture Diagram
 
 
-backend=
-cd backend
-npm install
 
-----------
+## 📽️ Demo & Walkthrough Video
 
-Configure environment variables 
+Watch the full demo and explanation on Loom:  
+👉https://kumaragurudtsteam-my.sharepoint.com/:v:/g/personal/anbarasan_22cs_kct_ac_in/Efg9Vpx4Ti5FnDEKpidyoxgBOR-pt7S1S4555IIDAdL7YA?e=cwo5Bf
 
-REACT_APP_GOOGLE_CLIENT_ID="Yout Google Client ID"
-MONGO_URI="MONGO DB URL"
-GMAIL_USERNAME=abcdef@gmail.com
-GMAIL_PASSWORD=YOUR APP PASSWORD
-PORT=8000
-JWT_SECRET=a random secret key 
 
 
 
