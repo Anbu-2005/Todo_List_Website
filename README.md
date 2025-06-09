@@ -8,7 +8,7 @@ The application includes features such as:
 - Marking tasks as completed.
 - Editing existing tasks.
 - Deleting tasks.
-- Filtering tasks by status or date.
+
 
 This project is built with a modern technology stack (e.g., React for frontend, Node.js/Express for backend, and MongoDB or SQLite for database), making it easy to maintain and extend.
 
