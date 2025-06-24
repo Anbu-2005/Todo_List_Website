@@ -1,9 +1,4 @@
 
- Hackathon Participation
-
- This project is a part of a hackathon run by
- 
- [https://www.katomaran.com](https://www.katomaran.com)
  Todo List Web Application
 
 Welcome to the **Todo List** Web App — a simple, responsive, and feature-rich task management platform built with the MERN stack (MongoDB, Express, React, Node.js). This application allows users to register, log in, add/edit/delete tasks, and mark them as completed.
